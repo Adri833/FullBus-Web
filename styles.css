@@ -12,16 +12,23 @@ body {
 }
 
 .container {
+    text-align: center;
     background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 80%;
-    max-width: 400px;
+    max-width: 600px;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     color: #333;
     margin-bottom: 15px;
 }
@@ -34,17 +41,40 @@ p {
 
 .download-btn {
     display: inline-block;
-    background-color: #4CAF50;
+    background: linear-gradient(45deg, #fe1200, #92211e);
     color: white;
     padding: 15px 25px;
     font-size: 1.2rem;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
+    margin: 20px;
 }
 
 .download-btn:hover {
-    background-color: #45a049;
+    background: linear-gradient(45deg, #92211e, #fe1200);
+}
+
+.horarios-text {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 30px;
+    color: #333;
+}
+
+.horarios-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.horarios-container img {
+    max-width: 100%;
+    max-width: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 600px) {
